@@ -4,9 +4,16 @@
 # Ignore build directories
 /build/
 /out/
+/app/build/
 
 # Ignore Gradle wrapper binaries
 /gradle/wrapper/gradle-wrapper.jar
+
+# Ignore .gradle directory
+/.gradle/
+
+# Ignore other Gradle-specific files
+/gradle/libs.versions.toml
 
 # Ignore OS-specific files
 .DS_Store
