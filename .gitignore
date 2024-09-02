@@ -1,0 +1,13 @@
+# Ignore all .idea directory files (common for JetBrains IDEs like IntelliJ)
+.idea/
+
+# Ignore build directories
+/build/
+/out/
+
+# Ignore Gradle wrapper binaries
+/gradle/wrapper/gradle-wrapper.jar
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
