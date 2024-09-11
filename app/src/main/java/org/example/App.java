@@ -4,11 +4,12 @@
 package org.example;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        EventPlanner eventPlanner = new EventPlanner();
+        eventPlanner.addEvent(new Event("QA-Conference","8-6-2024","Sanfransisco"));
+        eventPlanner.addEvent(new Event("Women Who Code","14-10-2024","LA"));
+        eventPlanner.addEvent(new Event("Toast Masters","3-11-2024","Sydney"));
+        eventPlanner.displayEvent();
     }
 }
